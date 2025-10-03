@@ -4,9 +4,20 @@ require_relative "rubyclient/version"
 
 module Aps
   module Sdk
-    module Rubyclient
-      class Error < StandardError; end
-      # Your code goes here...
+    class Rubyclient
+
+      def initialize(client_id: , client_secret:)        
+        @client_id = client_id
+        @client_secret = client_secret
+      end
+
+      class Error < StandardError; end     
+
+      
     end
   end
 end
+
+
+
+

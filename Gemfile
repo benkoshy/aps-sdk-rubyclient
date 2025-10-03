@@ -9,3 +9,14 @@ gem "irb"
 gem "rake", "~> 13.0"
 
 gem "rubocop", "~> 1.21"
+
+group :test do    
+  gem 'minitest'
+  gem 'minitest-reporters'        
+  gem 'rubocop-minitest'
+  gem 'rubocop-packaging'
+  gem 'rubocop-performance'
+  gem 'rubocop-rake'
+  gem 'simplecov', require: false
+  gem "debug"
+end
