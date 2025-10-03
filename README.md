@@ -1,8 +1,26 @@
+This is an unofficial Ruby Client for some of the services in Autodesk's Platform Services API - focusing primarily on some of ~~Forge's~~ (now known as Autodesk Platform Services) APIs.
+
 # Aps::Sdk::Rubyclient
 
-TODO: Delete this and the text below, and describe your gem
+Ruby Client for [Autodesk's Platform Services API](https://aps.autodesk.com/developer/documentation). 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/aps/sdk/rubyclient`. To experiment with that code, run `bin/console` for an interactive prompt.
+This API will primarily focus on:
+
+* OSS
+* Model Derivative API.
+* Authentication API.
+
+### WARNING
+
+* This repo is under active development: I will be making and force-pushing changes to the master branch.
+* When it is some-what ready and battle tested in my own repositories, I will publish to RubyGems.
+* Documentation will follow.
+
+
+### Development Doctrine
+
+* All API development must be based on battle tested usage via APIs in your own app. In this case - in mine.
+
 
 ## Installation
 
@@ -32,7 +50,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/aps-sdk-rubyclient. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/aps-sdk-rubyclient/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/aps-sdk-rubyclient.
+
+Please provide an easily replicable sample.
 
 ## License
 
@@ -40,4 +60,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Aps::Sdk::Rubyclient project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/aps-sdk-rubyclient/blob/master/CODE_OF_CONDUCT.md).
+It's pretty simple: [code of conduct](https://github.com/[USERNAME]/aps-sdk-rubyclient/blob/master/CODE_OF_CONDUCT.md).
+
+

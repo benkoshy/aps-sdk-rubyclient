@@ -2,7 +2,7 @@
 
 module Aps
   module Sdk
-    module Rubyclient
+    class Rubyclient
       VERSION = "0.1.0"
     end
   end
