@@ -11,6 +11,10 @@ module Aps
         @client_secret = client_secret
       end
 
+      def base_url
+        "https://developer.api.autodesk.com/"
+      end
+      
       class Error < StandardError; end     
 
       
