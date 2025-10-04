@@ -2,6 +2,8 @@ module Aps
   module Sdk
     class Rubyclient
       module Authentication
+        # create Constants for the Scopes?
+
         def post_token; end # for a generic request.
 
 
