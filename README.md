@@ -8,6 +8,19 @@ This API will primarily focus on:
 
 * OSS
 * Model Derivative API.
+* Authentication API.
+
+### WARNING
+
+* This repo is under active development: I will be making and force-pushing changes to the master branch.
+* When it is some-what ready and battle tested in my own repositories, I will publish to RubyGems.
+* Documentation will follow.
+
+
+### Development Doctrine
+
+* All API development must be based on battle tested usage via APIs in your own app. In this case - in mine.
+
 
 ## Installation
 
