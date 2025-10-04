@@ -43,6 +43,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency  'rubocop-performance'
   spec.add_dependency  'rubocop-rake'
   spec.add_dependency  'simplecov'
+  spec.add_dependency  'rest-client', '~> 2.1.0'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
