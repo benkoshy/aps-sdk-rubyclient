@@ -20,6 +20,10 @@ This API will primarily focus on:
 ### Development Doctrine
 
 * All API development must be based on battle tested usage via APIs in your own app. In this case - in mine.
+* Autodesk typically allow the use of equivalent variables in both URLs and headers. Where possible, I have opted for the use of such variables in headers. If you have objections you may:
+
+(a) override URLs
+(b) override request methods.
 
 
 ## Installation
